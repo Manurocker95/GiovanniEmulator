@@ -165,7 +165,7 @@ public class GameLoader: NSObject {
 		guard let gamesRaw = response["games"] as? [[String: Any]] else {
 			return nil
 		}
-		return gamesRaw.flatMap { Game(dictionary: $0) }
+		return gamesRaw.compactMap { Game(dictionary: $0) }
 	}
 }
 
