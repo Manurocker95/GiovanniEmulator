@@ -1346,7 +1346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = PU7LT3DCUT;
+				DEVELOPMENT_TEAM = 4C39M4896Z;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "giovanni WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1358,7 +1358,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Gambatte/libgambatte",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manuchorrada.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1372,7 +1372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = PU7LT3DCUT;
+				DEVELOPMENT_TEAM = 4C39M4896Z;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "giovanni WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1384,7 +1384,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Gambatte/libgambatte",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manuchorrada.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1399,15 +1399,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PU7LT3DCUT;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C39M4896Z;
 				IBSC_MODULE = giovanni_WatchKit_Extension;
 				INFOPLIST_FILE = giovanni_watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manuchorrada.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1422,15 +1424,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PU7LT3DCUT;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C39M4896Z;
 				IBSC_MODULE = giovanni_WatchKit_Extension;
 				INFOPLIST_FILE = giovanni_watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manuchorrada.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1444,14 +1448,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PU7LT3DCUT;
+				DEVELOPMENT_TEAM = 4C39M4896Z;
 				INFOPLIST_FILE = giovanni_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manuchorrada;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1463,14 +1467,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PU7LT3DCUT;
+				DEVELOPMENT_TEAM = 4C39M4896Z;
 				INFOPLIST_FILE = giovanni_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manuchorrada;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
