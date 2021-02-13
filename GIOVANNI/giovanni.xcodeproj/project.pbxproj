@@ -948,7 +948,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 1230;
-				ORGANIZATIONNAME = Gabrieloc;
+				ORGANIZATIONNAME = Manurocker95;
 				TargetAttributes = {
 					B21D7CE61E6C515900002F89 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1358,7 +1358,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Gambatte/libgambatte",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker1995.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1384,7 +1384,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Gambatte/libgambatte",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker1995.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1409,7 +1409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker1995.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1434,7 +1434,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker1995.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1455,7 +1455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker1995;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1474,7 +1474,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker95;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manurocker1995;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
