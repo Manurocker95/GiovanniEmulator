@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7hZ-R3-GZe">
-    <device id="watch42" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17701" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7hZ-R3-GZe">
+    <device id="watch42"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
     </dependencies>
     <scenes>
         <!--GamePlay-->
@@ -82,6 +81,11 @@ SL</string>
                                     <action selector="resetSelected" destination="AgC-eL-Hgc" id="ZNK-Kz-hgl"/>
                                 </connections>
                             </menuItem>
+                            <menuItem title="Reset" icon="repeat" id="n3S-Jp-EU7" userLabel="Exit">
+                                <connections>
+                                    <action selector="exitSelected" destination="AgC-eL-Hgc" id="Fk5-NE-nCv"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                     <connections>
@@ -153,4 +157,7 @@ SL</string>
             <point key="canvasLocation" x="61.897435897435905" y="268.51282051282055"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gio" width="136" height="80"/>
+    </resources>
 </document>

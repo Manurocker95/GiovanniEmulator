@@ -99,6 +99,10 @@ class GameplayController: WKInterfaceController {
 		loader.core?.resetEmulation()
 	}
 
+    @IBAction func exitSelected() {
+        loader.core?.stopEmulation()
+    }
+    
 	@IBOutlet var ALabel: WKInterfaceLabel!
 	@IBOutlet var DPadLabel: WKInterfaceLabel!
 

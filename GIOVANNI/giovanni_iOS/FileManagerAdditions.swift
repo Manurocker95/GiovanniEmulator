@@ -35,7 +35,7 @@ import Foundation
 
 extension String {
 	var isValidROMExtension: Bool {
-		return ["gb", "gbc", "zip"].contains(self)
+		return ["gb", "gbc", "GBC", "sgb", "zip"].contains(self)
 	}
 }
 

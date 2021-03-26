@@ -72,13 +72,16 @@ public:
 	[[NSFileManager defaultManager] createDirectoryAtURL:batterySavesDirectory withIntermediateDirectories:YES attributes:nil error:nil];
 	gb.setSaveDir([[batterySavesDirectory path] UTF8String]);
 	gb.setInputGetter(&GetInput);
-	if (gb.load([path UTF8String]) != 0) {
+	if (gb.load([path UTF8String]) != 0)
+    {
 		NSMutableDictionary *errorUserInfo = [NSMutableDictionary dictionary];
 		NSString *errorMessage = [NSString stringWithFormat:@"Error loading at %@", path];
 		errorUserInfo[NSLocalizedDescriptionKey] = errorMessage;
 		NSError *error = [NSError errorWithDomain:@"GameCore" code:9999 userInfo:errorUserInfo];
 		failure(error);
-	} else {
+	}
+    else
+    {
 		success(self);
 	}
 }
@@ -160,7 +163,7 @@ public:
 	[self stopEmulation];
 	gb.reset();
 	[self startEmulation];
-}
+}  
 
 - (void)saveSavedata
 {

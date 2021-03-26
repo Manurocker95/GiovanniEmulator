@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="516" width="320" height="52"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzm-uG-1io">
-                                        <rect key="frame" x="124" y="17" width="140" height="27"/>
+                                        <rect key="frame" x="90" y="17" width="140" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                         <state key="normal" title="©2021 @Manurocker95">
